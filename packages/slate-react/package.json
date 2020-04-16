@@ -1,9 +1,9 @@
 {
-  "name": "slate-react",
+  "name": "@nekodex/slate-react",
   "description": "Tools for building completely customizable richtext editors with React.",
   "version": "0.57.1",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/nekodex/slate.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,9 @@
   "files": [
     "dist/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@types/is-hotkey": "^0.1.1",
     "@types/lodash": "^4.14.149",
@@ -23,8 +26,8 @@
     "scroll-into-view-if-needed": "^2.2.20"
   },
   "devDependencies": {
-    "slate": "^0.57.1",
-    "slate-hyperscript": "^0.57.1"
+    "@nekodex/slate": "^0.57.1",
+    "@nekodex/slate-hyperscript": "^0.57.1"
   },
   "peerDependencies": {
     "react": ">=16.8.0",

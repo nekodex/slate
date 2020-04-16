@@ -1,9 +1,9 @@
 {
-  "name": "slate",
+  "name": "@nekodex/slate",
   "description": "A completely customizable framework for building rich text editors.",
   "version": "0.57.1",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/nekodex/slate.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,9 @@
   "files": [
     "dist/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@types/esrever": "^0.2.0",
     "esrever": "^0.2.0",

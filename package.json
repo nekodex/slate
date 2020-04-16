@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "slate-packages",
+  "name": "@nekodex/slate-packages",
   "workspaces": [
     "packages/*"
   ],
@@ -80,10 +80,10 @@
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript2": "^0.25.2",
     "rollup-plugin-uglify": "^6.0.3",
-    "slate": "*",
-    "slate-history": "*",
-    "slate-hyperscript": "*",
-    "slate-react": "*",
+    "slate": "npm:@nekodex/slate",
+    "slate-history": "npm:@nekodex/slate-history",
+    "slate-hyperscript": "npm:@nekodex/slate-hyperscript",
+    "slate-react": "npm:@nekodex/slate-react",
     "source-map-loader": "^0.2.4",
     "typescript": "^3.7.2"
   }
