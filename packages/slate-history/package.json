@@ -1,7 +1,7 @@
 {
   "name": "@nekodex/slate-history",
   "description": "An operation-based history implementation for Slate editors.",
-  "version": "0.57.1",
+  "version": "0.57.1-nekodex.1",
   "license": "MIT",
   "repository": "git://github.com/nekodex/slate.git",
   "main": "dist/index.js",
@@ -21,8 +21,8 @@
     "is-plain-object": "^3.0.0"
   },
   "devDependencies": {
-    "@nekodex/slate": "^0.57.1",
-    "@nekodex/slate-hyperscript": "^0.57.1"
+    "@nekodex/slate": "^0.57.1-nekodex.1",
+    "@nekodex/slate-hyperscript": "^0.57.1-nekodex.1"
   },
   "peerDependencies": {
     "slate": ">=0.55.0"
